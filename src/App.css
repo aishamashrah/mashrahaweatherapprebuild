@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.background{
+  background-image: url(./assets/shy.jpeg); 
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  
+}
+.img{
+width: 15rem;
+}
+.input1 {
+  padding: 7px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(16, 8, 8, 0.2);
+  outline: none;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+
+}
+.inp{
+padding: 3rem;
+height: 4rem;
+}
+
+
+.titleapp{
+color: aliceblue;
+margin-bottom: 4rem;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+justify-content: center;
+
+}
+.card1{
+  width: 15rem;
+  height: 3rem;
+}
+.Container1{
+
+text-align: center;
+}
+.maxtemp{
+  width: 14rem;
+  background-color: #68deff82;
+  height: 15rem;
+margin-top: 1rem;
+padding: 1rem;
+border-radius: 1rem;
+}
+/* .rowb{
+  justify-content: center;
+width: 50rem;
+
+} */
+.day{
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.day1{
+  font-size: 20px;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main{
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main1{
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.maxtemp1{
+  width: 20rem;
+  background-color: #68deff82;
+  height: 15rem;
+margin-top: 1rem;
+padding: 1rem;
+border-radius: 1rem;
+}
+.dropdown{
+  text-align: start;
+}
