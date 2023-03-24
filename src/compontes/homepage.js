@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { Button, Col, Container, Row, Dropdown, InputGroup, DropdownButton, Form } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from 'react-bootstrap/Navbar';
-import Card from 'react-bootstrap/Card';
+
 import { weatherapi, weatherapi2 } from '../services/fetch';
 
 
